@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  width: 850px;
+  height: 550px;
+}
+
+.phones{
+  width: 330px;
+  height: 550px;
+}
+
+.general-info{
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0 25px 50px;
+  height: 540px;
+  width: 540px;
+}
+
+.logo-ig{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 18px 0;
+  width: 420px;
+}
+
+.button > login{
+ font-weight: bolder;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #406c94;
+  margin: 12px;
+  height: 40px;
+  width: 90px;
+  box-shadow: 1px 1px 2px 1px;
+  border: 1px solid #406c94;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 500px;
+  margin: 200px 0 -220px -20px;
+}
+
+.h1{
+  font-size: 20px;
+  text-align: left;
+  color: #406c94;
+  margin: 30px 35px 10px;
+}
+
+.p{
+  font-size: 17px;
+  margin: 10px 35px 55px;
+}
+
+.app{
+  position: absolute;
+  bottom: 50px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 50px;
+  margin: 10px 30px -90px 80px;
+}
+
+.copyright{
+  color: cadetblue;
 }
